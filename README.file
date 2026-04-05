@@ -1,0 +1,177 @@
+# 🚀 AI Resume–Job Match Analyzer
+
+An intelligent AI-powered web application that analyzes a user's resume against a job description and provides real-time insights, match scores, personalized suggestions, and voice-based guidance.
+
+---
+
+## 🧠 Problem
+
+Many students and job seekers apply for jobs without understanding how well their resumes match job requirements. This results in:
+
+* High rejection rates ❌
+* Lack of clarity about required skills ❌
+* Time-consuming manual screening ❌
+* No personalized feedback ❌
+
+---
+
+## 💡 Solution
+
+AI Resume–Job Match Analyzer provides a smart and automated way to evaluate resumes.
+
+It:
+
+* 📄 Extracts text from resumes (PDF)
+* 🧠 Identifies key skills using AI & NLP
+* 📊 Calculates match score (%)
+* ❌ Detects missing skills (skill gap analysis)
+* 💡 Generates AI-powered suggestions
+* 🗺️ Creates personalized learning roadmap
+* 🎤 Provides voice-based explanation
+
+---
+
+## ✨ Features
+
+* 🔍 Resume & Job Description Analysis
+* 📊 Match Score Calculation
+* ✅ Skill Matching & Gap Detection
+* 💡 AI-based Suggestions
+* 🗺️ Career Roadmap Generation
+* 🎤 Voice-Based Explanation (AI Assistant)
+* 🎯 Clean & Interactive Dashboard UI
+
+### 🎤 Voice Feature
+
+* Converts AI insights into speech
+* Explains match score in a human-like manner
+* Guides users on missing skills and improvements
+* Enhances accessibility and engagement
+
+---
+
+## ⚙️ Tech Stack
+
+### 🖥️ Frontend
+
+* Next.js (React)
+* Tailwind CSS
+* Component-based UI
+
+### ⚙️ Backend
+
+* Next.js API Routes (Serverless)
+* Node.js runtime
+
+### 🤖 AI Integration
+
+* OpenAI (GPT) for analysis & suggestions
+
+### 📄 Data Processing
+
+* PDF Parsing (pdf-parse / PDF.js)
+* Custom Skill Extraction & Matching Logic
+
+### 🗄️ Database
+
+* Supabase (optional for scalability)
+
+### 🛠️ Tools & Environment
+
+* Vercel / Replit (Deployment)
+* Git & GitHub (Version Control)
+* VS Code (Development)
+
+---
+
+## 🏗️ Architecture
+
+Frontend (Next.js UI)
+→ API Route (/api/analyze)
+→ Resume Parsing
+→ Skill Extraction
+→ Match Calculation
+→ OpenAI Analysis
+→ Voice Generation
+→ Results Dashboard
+
+---
+
+## 📊 How It Works
+
+1. Upload your resume (PDF)
+2. Paste job description
+3. Click "Analyze"
+4. Get:
+
+   * Match Score
+   * Matched Skills
+   * Missing Skills
+   * AI Suggestions
+   * 🎤 Voice Explanation
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Add environment variables
+
+Create a `.env.local` file:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 4. Run the application
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔮 Future Scope
+
+* 🔗 Integration with LinkedIn & job portals
+* 📈 Resume performance analytics
+* 🧠 Advanced semantic matching using AI embeddings
+* 👤 User login & profile management
+* 🌍 Multi-language support
+* 🎙️ Advanced conversational AI assistant
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is built for educational and hackathon purposes.
+
+---
+
+## 🏆 Acknowledgment
+
+Developed as part of a 24-hour hackathon to solve real-world career challenges using AI and modern web technologies.
+
+---
+
+## 💬 Final Note
+
+> “We are not just analyzing resumes — we are guiding careers using AI.”
